@@ -1,1 +1,27 @@
-"STUDENT MANAGEMENT SYSTEM"
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7a4f0;
+    color: +oklch(75.79% 0.12035 313.819);
+}
+
+header {
+    background-color: #e7b2e8;
+    color: rgb(122, 90, 167);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 7%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
